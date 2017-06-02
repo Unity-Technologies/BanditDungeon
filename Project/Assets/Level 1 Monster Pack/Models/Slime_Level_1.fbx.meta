@@ -1,0 +1,360 @@
+fileFormatVersion: 2
+guid: e607f74860c67814e93c914b710142d5
+timeCreated: 1480907741
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: BackArrowControl
+    100002: FrontArrowControl
+    100004: LeftArrowControl
+    100006: MESH
+    100008: RIG
+    100010: RightArrowControl
+    100012: //RootNode
+    100014: SlimeBackTailJoint
+    100016: SlimeControl
+    100018: SlimeControl1
+    100020: SlimeFrontTailJoint
+    100022: SlimeHeadJoint
+    100024: SlimeLeftTailJoint
+    100026: SlimeLevel1 1
+    100028: SlimeNeckJoint
+    100030: SlimeRightJoint
+    100032: SlimeRootJoint
+    400000: BackArrowControl
+    400002: FrontArrowControl
+    400004: LeftArrowControl
+    400006: MESH
+    400008: RIG
+    400010: RightArrowControl
+    400012: //RootNode
+    400014: SlimeBackTailJoint
+    400016: SlimeControl
+    400018: SlimeControl1
+    400020: SlimeFrontTailJoint
+    400022: SlimeHeadJoint
+    400024: SlimeLeftTailJoint
+    400026: SlimeLevel1 1
+    400028: SlimeNeckJoint
+    400030: SlimeRightJoint
+    400032: SlimeRootJoint
+    4300000: SlimeLevel1
+    7400000: slime_idle
+    7400002: slime_move
+    7400004: slime_attack
+    7400006: slime_die
+    9500000: //RootNode
+    13700000: SlimeLevel1 1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: slime_idle
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: MESH
+        weight: 1
+      - path: MESH/SlimeLevel1 1
+        weight: 1
+      - path: RIG
+        weight: 1
+      - path: RIG/SlimeControl
+        weight: 1
+      - path: RIG/SlimeControl/BackArrowControl
+        weight: 1
+      - path: RIG/SlimeControl/BackArrowControl/SlimeBackTailJoint
+        weight: 1
+      - path: RIG/SlimeControl/FrontArrowControl
+        weight: 1
+      - path: RIG/SlimeControl/FrontArrowControl/SlimeFrontTailJoint
+        weight: 1
+      - path: RIG/SlimeControl/LeftArrowControl
+        weight: 1
+      - path: RIG/SlimeControl/LeftArrowControl/SlimeLeftTailJoint
+        weight: 1
+      - path: RIG/SlimeControl/RightArrowControl
+        weight: 1
+      - path: RIG/SlimeControl/RightArrowControl/SlimeRightJoint
+        weight: 1
+      - path: RIG/SlimeControl/SlimeControl1
+        weight: 1
+      - path: RIG/SlimeControl/SlimeRootJoint
+        weight: 1
+      - path: RIG/SlimeControl/SlimeRootJoint/SlimeNeckJoint
+        weight: 1
+      - path: RIG/SlimeControl/SlimeRootJoint/SlimeNeckJoint/SlimeHeadJoint
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: slime_move
+      takeName: Take 001
+      firstFrame: 30
+      lastFrame: 54
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: MESH
+        weight: 1
+      - path: MESH/SlimeLevel1 1
+        weight: 1
+      - path: RIG
+        weight: 1
+      - path: RIG/SlimeControl
+        weight: 1
+      - path: RIG/SlimeControl/BackArrowControl
+        weight: 1
+      - path: RIG/SlimeControl/BackArrowControl/SlimeBackTailJoint
+        weight: 1
+      - path: RIG/SlimeControl/FrontArrowControl
+        weight: 1
+      - path: RIG/SlimeControl/FrontArrowControl/SlimeFrontTailJoint
+        weight: 1
+      - path: RIG/SlimeControl/LeftArrowControl
+        weight: 1
+      - path: RIG/SlimeControl/LeftArrowControl/SlimeLeftTailJoint
+        weight: 1
+      - path: RIG/SlimeControl/RightArrowControl
+        weight: 1
+      - path: RIG/SlimeControl/RightArrowControl/SlimeRightJoint
+        weight: 1
+      - path: RIG/SlimeControl/SlimeControl1
+        weight: 1
+      - path: RIG/SlimeControl/SlimeRootJoint
+        weight: 1
+      - path: RIG/SlimeControl/SlimeRootJoint/SlimeNeckJoint
+        weight: 1
+      - path: RIG/SlimeControl/SlimeRootJoint/SlimeNeckJoint/SlimeHeadJoint
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: slime_attack
+      takeName: Take 001
+      firstFrame: 60
+      lastFrame: 80
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: MESH
+        weight: 1
+      - path: MESH/SlimeLevel1 1
+        weight: 1
+      - path: RIG
+        weight: 1
+      - path: RIG/SlimeControl
+        weight: 1
+      - path: RIG/SlimeControl/BackArrowControl
+        weight: 1
+      - path: RIG/SlimeControl/BackArrowControl/SlimeBackTailJoint
+        weight: 1
+      - path: RIG/SlimeControl/FrontArrowControl
+        weight: 1
+      - path: RIG/SlimeControl/FrontArrowControl/SlimeFrontTailJoint
+        weight: 1
+      - path: RIG/SlimeControl/LeftArrowControl
+        weight: 1
+      - path: RIG/SlimeControl/LeftArrowControl/SlimeLeftTailJoint
+        weight: 1
+      - path: RIG/SlimeControl/RightArrowControl
+        weight: 1
+      - path: RIG/SlimeControl/RightArrowControl/SlimeRightJoint
+        weight: 1
+      - path: RIG/SlimeControl/SlimeControl1
+        weight: 1
+      - path: RIG/SlimeControl/SlimeRootJoint
+        weight: 1
+      - path: RIG/SlimeControl/SlimeRootJoint/SlimeNeckJoint
+        weight: 1
+      - path: RIG/SlimeControl/SlimeRootJoint/SlimeNeckJoint/SlimeHeadJoint
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: slime_die
+      takeName: Take 001
+      firstFrame: 90
+      lastFrame: 112
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: MESH
+        weight: 1
+      - path: MESH/SlimeLevel1 1
+        weight: 1
+      - path: RIG
+        weight: 1
+      - path: RIG/SlimeControl
+        weight: 1
+      - path: RIG/SlimeControl/BackArrowControl
+        weight: 1
+      - path: RIG/SlimeControl/BackArrowControl/SlimeBackTailJoint
+        weight: 1
+      - path: RIG/SlimeControl/FrontArrowControl
+        weight: 1
+      - path: RIG/SlimeControl/FrontArrowControl/SlimeFrontTailJoint
+        weight: 1
+      - path: RIG/SlimeControl/LeftArrowControl
+        weight: 1
+      - path: RIG/SlimeControl/LeftArrowControl/SlimeLeftTailJoint
+        weight: 1
+      - path: RIG/SlimeControl/RightArrowControl
+        weight: 1
+      - path: RIG/SlimeControl/RightArrowControl/SlimeRightJoint
+        weight: 1
+      - path: RIG/SlimeControl/SlimeControl1
+        weight: 1
+      - path: RIG/SlimeControl/SlimeRootJoint
+        weight: 1
+      - path: RIG/SlimeControl/SlimeRootJoint/SlimeNeckJoint
+        weight: 1
+      - path: RIG/SlimeControl/SlimeRootJoint/SlimeNeckJoint/SlimeHeadJoint
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: SlimeControl
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

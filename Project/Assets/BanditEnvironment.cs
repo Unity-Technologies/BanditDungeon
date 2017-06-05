@@ -7,22 +7,25 @@ using UnityEngine.SceneManagement;
 
 public class BanditEnvironment : MonoBehaviour {
 
-	public List<GameObject> chests;
-	public List<GameObject> estimatedValues;
-	public List<GameObject> trueValues;
-	public float totalRewards;
-	int trial;
-	int num_arms;
-	int totalStates;
-	int state;
-	public float actSpeed;
-	float[][] armProbs;
-	Agent agent;
+	public List<GameObject> chests; // List of chest objects.
+	public List<GameObject> estimatedValues; // List of visualized value estimates (green orbs).
+	public List<GameObject> trueValues; // List of visualized true values (clear orbs).
+	public float totalRewards; // Total rewards obtained over the course of all trials.
+	int trial; // Trial index.
+	int num_arms; // Number of chests in a given trial.
+	int totalStates; // Number of possible rooms with unique chest reward probabilties. 
+	int state; // Index of current room.
+	public float actSpeed; // Speed at which actions are chosen.
+	float[][] armProbs; // True values for each chests in each room.
+	Agent agent; // The agent which learns to pick actions.
 
 	// Use this for initialization
 	void Start () {
 	}
 
+	/// <summary>
+	/// Initialized the bandit game. Called when "Start Learning" button in clicked.
+	/// </summary>
 	public void BeginLearning() {
 		trial = 0;
 		totalRewards = 0;
@@ -75,6 +78,10 @@ public class BanditEnvironment : MonoBehaviour {
 		}
 	}
 
+	/// <summary>
+	/// Gets an action from the agent, selects the chest accordingly,
+	/// and updates the agent's value estimates based on the reward.
+	/// </summary>
 	IEnumerator Act() {
 		yield return new WaitForSeconds(actSpeed);
 		int action = agent.PickAction(state);
@@ -83,6 +90,9 @@ public class BanditEnvironment : MonoBehaviour {
 		agent.UpdatePolicy (state, action, reward);
 	}
 
+	/// <summary>
+	/// Resets chests for new trial.
+	/// </summary>
 	public void LoadTrial() {
 		trial += 1;
 		state = Random.Range (0, totalStates);

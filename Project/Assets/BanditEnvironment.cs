@@ -16,7 +16,7 @@ public class BanditEnvironment : MonoBehaviour {
 	int totalStates; // Number of possible rooms with unique chest reward probabilties. 
 	int state; // Index of current room.
 	public float actSpeed; // Speed at which actions are chosen.
-	float[][] armProbs; // True values for each chests in each room.
+	float[][] armProbs; // True probability values for each chest in each room.
 	Agent agent; // The agent which learns to pick actions.
 
 	// Use this for initialization

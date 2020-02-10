@@ -141,9 +141,9 @@ public class BanditEnvironment : MonoBehaviour {
 			GameObject valueSphere = (GameObject)GameObject.Instantiate (Resources.Load ("value"));
 			valueSphere.transform.position = new Vector3 ((i+1) * (12.5f / (total-1)) - ((12.5f / (total-1))*total)/2, 3f, 1.5f);
 			float inflation = 2 * agent.value_table [state][i] + 0.25f;
-			if (inflation > 2.5f) {
-				inflation = 2.5f;
-			}
+			
+			inflation = Mathf.Clamp(inflation, 0, 2.5f);
+			
 			valueSphere.transform.localScale = new Vector3 (inflation, inflation, inflation);
 			estimatedValues.Add (valueSphere);
 
